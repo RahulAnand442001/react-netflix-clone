@@ -17,8 +17,7 @@
 }
 
 .logo {
-	position: fixed;
-	left: 20px;
+	margin-left: 2rem !important;
 	fill: #e50914;
 	line-height: normal;
 	width: auto;
@@ -28,8 +27,7 @@
 }
 
 .avatar {
-	position: fixed;
-	right: 20px;
+	margin-right: 4rem !important;
 	width: 30px;
 	object-fit: contain;
 }

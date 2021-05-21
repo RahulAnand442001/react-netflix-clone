@@ -23,7 +23,6 @@
 	font-size: 0.8rem;
 	max-width: 360px;
 	height: 80px;
-	word-wrap: wrap;
 }
 
 .banner__button {
@@ -52,4 +51,10 @@
 		rgba(37, 37, 37, 0.61),
 		#111
 	);
+}
+
+@media only screen and (max-width: 600px) {
+	.banner__description {
+		max-width: 280px;
+	}
 }
